@@ -28,6 +28,7 @@ The figure recognition algorithm is based on image segmentation and pattern matc
 
 <h3>Segmentation</h3>
 The algorithm segments the chessboard image into individual figures using the following steps:
+
 1. Convert the image to grayscale.
 2. Apply a binary threshold to the image to obtain a binary image where the chessboard figures are white and the background is black.
 3. Find contours in the binary image using OpenCV's findContours function.
@@ -35,6 +36,7 @@ The algorithm segments the chessboard image into individual figures using the fo
 
 <h3>Pattern Matching</h3>
 The algorithm matches the segmented chessboard figures with the pre-trained set of patterns for each chess figure using the following steps:
+
 1. Convert the segmented chessboard figure to grayscale.
 2. Apply a binary threshold to the image to obtain a binary image where the chess figure is white and the background is black.
 3. For each previously found pattern for the corresponding chess figure, apply a binary threshold to the pattern image to obtain a binary image where the chess figure pattern is white and the background is black.
