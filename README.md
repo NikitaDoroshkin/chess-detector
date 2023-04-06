@@ -1,6 +1,8 @@
 <h1>Chess Recognition Project</h1>
 This project is aimed at developing a web-based application for recognizing chessboards and individual figures on them. The application is implemented in Python using the Django framework and OpenCV computer vision library.
 
+Working project can be found at the following link: http://mikitadaroshkin.pythonanywhere.com/
+
 <h2>Project Description</h2>
 The project consists of several parts:
 
